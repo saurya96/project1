@@ -1,0 +1,200 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    background-image:url("abstract-pastel-color-background-with-blank-space-vector.jpg");
+}
+
+.container {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image:url("abstract-pastel-color-background-with-blank-space-vector.jpg");
+}
+
+.container img{
+ height:500px;
+ width:500px;
+  
+}
+
+/* Header styles */
+header {
+    background:pink;
+    color: black;
+    padding: 60px 0;
+    text-align: center;
+
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+
+}
+
+header .subtitle {
+    font-size: 1.2rem;
+    font-weight: 300px;
+}
+
+/* About section */
+#about {
+    padding: 40px 0;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#about p {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+/* Portfolio section */
+#portfolio {
+    background: #fff;
+    padding: 40px 0;
+    text-align: center;
+    background-image: url("abstract-pastel-color-background-with-blank-space-vector.jpg");
+}
+
+#portfolio h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #1f0404;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gallery-item {
+    background: #f9f9f9;
+    padding: 15px;
+    margin: 10px;
+    flex: 1 1 calc(33.333% - 20px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: translateY(-10px);
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.gallery-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.gallery-item p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Contact section */
+#contact {
+    background: #f4f4f4;
+    padding: 40px 0;
+    text-align: center;
+    background-image: url("abstract-pastel-color-background-with-blank-space-vector.jpg");
+    
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #230303;
+}
+ 
+    h3{
+    font-size:bold;
+
+}
+
+#contact ul {
+    list-style: none;
+    font-size: 1.1rem;
+    line-height: 2.2;
+}
+
+#contact ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+    background: #333;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Image styles */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Specific image size */
+#mg {
+    width: 100px;
+    height: 200px;
+}
+
+/* Background color correction */
+.abcd {
+    background-color: #f3d9a0;
+}
+
+h3 {
+    text-align: center;
+}
+
+.acc {
+    text-align: center;
+    font-size: 20px;
+}
+
+#portfolio .container {
+    font-size: 30px;
+}
+.homepage a{
+    text-align:center;
+    padding:10px;
+    margin:20px;
+    text-decoration: none;
+    font-size: 50px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}.container{
+    background-color: pink;
+}
